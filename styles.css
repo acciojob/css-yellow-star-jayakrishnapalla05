@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-.six-pointed-star{
+.star{
       --star-color:yellow;
       --sqrt-3:1.73205080757;
   margin: 0;
@@ -12,7 +12,7 @@
       border-bottom: calc( 1em * var(--sqrt-3) ) solid var(--star-color);
 }
 
-.six-pointed-star:after{
+.star:after{
       content:"";
       position:absolute;
       width: 0;
